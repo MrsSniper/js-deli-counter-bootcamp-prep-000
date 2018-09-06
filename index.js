@@ -10,7 +10,12 @@ function takeANumber(katzDeliLine, person) {
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length > 0)
   {
+<<<<<<< HEAD
     return `Currently serving ${katzDeliLine.shift()}.`
+=======
+    var deliLineAfter = katzDeliLine.slice(1)
+    return `Currently serving ${katzDeliLine[0]}.`;
+>>>>>>> 13b71da7a44f24e0323d5996ee312ac16577d4c9
   }
   else 
   {
